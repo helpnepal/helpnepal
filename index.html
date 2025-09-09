@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Contacts in Nepal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚨 Emergency Contacts in Nepal</h1>
+            <p>Quick access to emergency numbers and important resources</p>
+        </header>
+
+        <!-- Critical Emergency Numbers -->
+        <div class="section emergency-section">
+            <div class="section-header">
+                <span class="header-icon">🚨</span>
+                <span>Critical Emergency Numbers</span>
+                <span class="header-subtitle">Dial immediately</span>
+            </div>
+            <div class="content">
+                <div class="emergency-grid">
+                    <div class="emergency-card">
+                        <div class="service-name">Nepal Police<br><span class="org-name-nepali">नेपाल प्रहरी</span></div>
+                        <div class="phone-number">100</div>
+                        <div class="charge">Free</div>
+                    </div>
+                    <div class="emergency-card">
+                        <div class="service-name">Fire Support<br><span class="org-name-nepali">दमकल सेवा</span></div>
+                        <div class="phone-number">101</div>
+                        <div class="charge">Free</div>
+                    </div>
+                    <div class="emergency-card">
+                        <div class="service-name">Ambulance Support<br><span class="org-name-nepali">एम्बुलेन्स सेवा</span></div>
+                        <div class="phone-number">102</div>
+                        <div class="charge">Free</div>
+                    </div>
+                    <div class="emergency-card">
+                        <div class="service-name">Traffic Support<br><span class="org-name-nepali">ट्राफिक सहयोग</span></div>
+                        <div class="phone-number">103</div>
+                        <div class="charge">Free</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Other Emergency Services -->
+        <div class="section">
+            <div class="section-header">
+                <span class="header-icon">📞</span>
+                <span>Other Emergency Services</span>
+            </div>
+            <div class="content">
+                <div class="emergency-grid">
+                    <div class="emergency-card secondary">
+                        <div class="service-name">Missing Child Response<br><span class="org-name-nepali">हराएको बालबालिका</span></div>
+                        <div class="phone-number">104</div>
+                        <div class="charge">Free</div>
+                    </div>
+                    <div class="emergency-card secondary">
+                        <div class="service-name">CIAA<br><span class="org-name-nepali">अख्तियार दुरुपयोग अनुसन्धान आयोग</span></div>
+                        <div class="phone-number">107</div>
+                        <div class="charge">Free</div>
+                    </div>
+                    <div class="emergency-card secondary">
+                        <div class="service-name">Child Helpline<br><span class="org-name-nepali">बाल हेल्पलाइन</span></div>
+                        <div class="phone-number">1098</div>
+                        <div class="charge">Free</div>
+                    </div>
+                    <div class="emergency-card secondary">
+                        <div class="service-name">Armed Police Force<br><span class="org-name-nepali">सशस्त्र प्रहरी</span></div>
+                        <div class="phone-number">1114</div>
+                        <div class="charge">Free</div>
+                    </div>
+                    <div class="emergency-card secondary">
+                        <div class="service-name">Women Helpline<br><span class="org-name-nepali">महिला हेल्पलाइन</span></div>
+                        <div class="phone-number">1145</div>
+                        <div class="charge">Free</div>
+                    </div>
+                    <div class="emergency-card secondary">
+                        <div class="service-name">NEA Helpline<br><span class="org-name-nepali">विद्युत प्राधिकरण</span></div>
+                        <div class="phone-number">1149</div>
+                        <div class="charge">Free</div>
+                    </div>
+                    <div class="emergency-card secondary">
+                        <div class="service-name">Patan Mental Hospital<br><span class="org-name-nepali">पाटन मानसिक अस्पताल</span></div>
+                        <div class="phone-number">1166</div>
+                        <div class="charge">Free</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hospital Emergency Contacts -->
+        <div class="section">
+            <div class="section-header">
+                <span class="header-icon">🏥</span>
+                <span>Hospital Emergency Contacts</span>
+            </div>
+            <div class="content">
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <div class="org-name">Civil Hospital <span class="org-name-nepali">(सिभिल अस्पताल)</span></div>
+                        <div class="phone-list">
+                            <a href="tel:9857823482" class="phone-btn">9857823482</a>
+                            <button class="copy-btn" onclick="copyToClipboard('9857823482')">Copy</button>
+                            <a href="tel:9841297861" class="phone-btn">9841297861</a>
+                            <button class="copy-btn" onclick="copyToClipboard('9841297861')">Copy</button>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="org-name">Bir Hospital/Trauma Centre <span class="org-name-nepali">(वीर अस्पताल/ट्रमा सेन्टर)</span></div>
+                        <div class="phone-list">
+                            <a href="tel:9851313273" class="phone-btn">9851313273</a>
+                            <button class="copy-btn" onclick="copyToClipboard('9851313273')">Copy</button>
+                            <a href="tel:9841396760" class="phone-btn">9841396760</a>
+                            <button class="copy-btn" onclick="copyToClipboard('9841396760')">Copy</button>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="org-name">T.U. Teaching Hospital <span class="org-name-nepali">(टी.यू. टिचिङ अस्पताल)</span></div>
+                        <div class="phone-list">
+                            <a href="tel:9843072019" class="phone-btn">9843072019</a>
+                            <button class="copy-btn" onclick="copyToClipboard('9843072019')">Copy</button>
+                            <a href="tel:9841374480" class="phone-btn">9841374480</a>
+                            <button class="copy-btn" onclick="copyToClipboard('9841374480')">Copy</button>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="org-name">KMC Sinamangal <span class="org-name-nepali">(केएमसी सिनामंगल)</span></div>
+                        <div class="phone-list">
+                            <a href="tel:9841815442" class="phone-btn">9841815442</a>
+                            <button class="copy-btn" onclick="copyToClipboard('9841815442')">Copy</button>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="org-name">Other Private Hospitals <span class="org-name-nepali">(अन्य निजी अस्पताल)</span></div>
+                        <div class="phone-list">
+                            <a href="tel:9801306893" class="phone-btn">9801306893</a>
+                            <button class="copy-btn" onclick="copyToClipboard('9801306893')">Copy</button>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="org-name">Metro Control <span class="org-name-nepali">(मेट्रो कन्ट्रोल)</span></div>
+                        <div class="phone-list">
+                            <a href="tel:9851356509" class="phone-btn">9851356509</a>
+                            <button class="copy-btn" onclick="copyToClipboard('9851356509')">Copy</button>
+                            <a href="tel:01-5901763" class="phone-btn">01-5901763</a>
+                            <button class="copy-btn" onclick="copyToClipboard('01-5901763')">Copy</button>
+                            <a href="tel:01-5901764" class="phone-btn">01-5901764</a>
+                            <button class="copy-btn" onclick="copyToClipboard('01-5901764')">Copy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Blood Donation Services -->
+        <div class="section">
+            <div class="section-header">
+                <span class="header-icon">🩸</span>
+                <span>Blood Donation Services</span>
+            </div>
+            <div class="content">
+                <a href="https://drive.google.com/file/d/1b4chlC9CE-SlA2lkOVUetQFOT-wIxwJY/view?usp=sharing" target="_blank" class="resource-link">
+                    <span class="resource-icon">📋</span>
+                    <span>MRR Blood Database - Volunteer Blood Donors List</span>
+                </a>
+                
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <div class="org-name">Blood Donation <span class="org-name-nepali">(रगत दान)</span></div>
+                        <div class="phone-list">
+                            <a href="tel:9845500499" class="phone-btn">9845500499</a>
+                            <button class="copy-btn" onclick="copyToClipboard('9845500499')">Copy</button>
+                            <a href="tel:9851033967" class="phone-btn">9851033967</a>
+                            <button class="copy-btn" onclick="copyToClipboard('9851033967')">Copy</button>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="org-name">Organizational Cooperation and Grievance <span class="org-name-nepali">(संस्थागत सहकार्य तथा गुनासो सुन्ने)</span></div>
+                        <div class="phone-list">
+                            <a href="tel:9857059631" class="phone-btn">9857059631</a>
+                            <button class="copy-btn" onclick="copyToClipboard('9857059631')">Copy</button>
+                        </div>
+                        <p class="contact-note">SMS/WhatsApp/Viber</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="org-name">Support Contact (Logistics, Institutional and Others) <span class="org-name-nepali">(सहयोग दाता सम्पर्क)</span></div>
+                        <div class="phone-list">
+                            <a href="tel:9848018215" class="phone-btn">9848018215</a>
+                            <button class="copy-btn" onclick="copyToClipboard('9848018215')">Copy</button>
+                        </div>
+                        <p class="contact-note">SMS/WhatsApp/Viber</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kathmandu Metro Portal -->
+        <div class="section">
+            <div class="section-header">
+                <span class="header-icon">🌐</span>
+                <span>Help Request Portal</span>
+            </div>
+            <div class="content">
+                <a href="https://datacollection.kathmandu.gov.np/#/public/Help/3144/00xhelp" target="_blank" class="resource-link portal-link">
+                    <span class="resource-icon">🏛️</span>
+                    <span>Portal By Kathmandu Metro - Request/Offer Help</span>
+                </a>
+                <p class="portal-description">
+                    Official portal for requesting or offering help in Kathmandu
+                </p>
+            </div>
+        </div>
+
+        <!-- Comprehensive Contact Directory -->
+        <div class="section">
+            <div class="section-header">
+                <span class="header-icon">📱</span>
+                <span>Comprehensive Emergency Directory</span>
+            </div>
+            <div class="content">
+                <div class="table-responsive">
+                    <h3 class="table-title">Ambulance Services / Kathmandu</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Service</th>
+                                <th>Phone Number</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>New Road</td><td>4244121</td><td><a href="tel:4244121" class="phone-btn">Call</a> <button class="copy-btn" onclick="copyToClipboard('4244121')">Copy</button></td></tr>
+                            <tr><td>Kathmandu Model Hospital, Bagbazar</td><td>4240805, 4240806</td><td><a href="tel:4240805" class="phone-btn">4240805</a> <a href="tel:4240806" class="phone-btn">4240806</a></td></tr>
+                            <tr><td>Laliptur Municipality</td><td>5527003</td><td><a href="tel:5527003" class="phone-btn">Call</a> <button class="copy-btn" onclick="copyToClipboard('5527003')">Copy</button></td></tr>
+                            <tr><td>Nepal Red Cross Society</td><td>4228094</td><td><a href="tel:4228094" class="phone-btn">Call</a> <button class="copy-btn" onclick="copyToClipboard('4228094')">Copy</button></td></tr>
+                            <tr><td>Paropakar</td><td>4251614, 4211959</td><td><a href="tel:4251614" class="phone-btn">4251614</a> <a href="tel:4211959" class="phone-btn">4211959</a></td></tr>
+                        </tbody>
+                    </table>
+
+                    <h3 class="table-title">Major Hospitals / Kathmandu</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Hospital</th>
+                                <th>Phone Number</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Bir Hospital, Tundikhel</td><td>4221119, 4223807</td><td><a href="tel:4221119" class="phone-btn">4221119</a> <a href="tel:4223807" class="phone-btn">4223807</a></td></tr>
+                            <tr><td>Bir Hospital, Emergencies</td><td>4226984, 4221988, 4223807</td><td><a href="tel:4226984" class="phone-btn">4226984</a> <a href="tel:4221988" class="phone-btn">4221988</a></td></tr>
+                            <tr><td>TU Teaching Hospital, Maharajgunj</td><td>4412707, 4412808, 4412505</td><td><a href="tel:4412707" class="phone-btn">4412707</a> <a href="tel:4412808" class="phone-btn">4412808</a></td></tr>
+                            <tr><td>Kanti Children Hospital</td><td>4411134, 4411140, 44111150</td><td><a href="tel:4411134" class="phone-btn">4411134</a> <a href="tel:4411140" class="phone-btn">4411140</a></td></tr>
+                            <tr><td>Patan Hospital, Lagankhel</td><td>5522566, 5521048, 5522266</td><td><a href="tel:5522566" class="phone-btn">5522566</a> <a href="tel:5521048" class="phone-btn">5521048</a></td></tr>
+                            <tr><td>Grand Hospital, Kathmandu</td><td>01-4381047, 4380223</td><td><a href="tel:01-4381047" class="phone-btn">01-4381047</a> <a href="tel:4380223" class="phone-btn">4380223</a></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="info-box">
+                    <div class="info-item">
+                        <strong>📍 Important Note:</strong> Add "01" before the number when calling from a mobile phone for landline numbers.
+                    </div>
+                    <div class="info-item">
+                        <strong>✈️ Airport:</strong> Kathmandu International Airport - <a href="tel:01-4113033" class="phone-btn">01-4113033</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="toast" class="toast"></div>
+    <script src="script.js"></script>
+</body>
+</html>
